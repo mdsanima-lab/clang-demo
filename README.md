@@ -1,2 +1,3 @@
 # clang-demo
-Demo C/C++ programs and introduction to CMake
+
+Clang demo programs with introduction to **CMake** configuration for building and running **C** and **C++** programs.
