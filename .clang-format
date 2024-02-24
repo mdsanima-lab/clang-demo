@@ -1,9 +1,9 @@
 ---
 BasedOnStyle: Google
 ColumnLimit: 80
-IndentWidth: 4
+IndentWidth: 2
 ---
 Language: Cpp
 ColumnLimit: 80
-IndentWidth: 4
+IndentWidth: 2
 ---
