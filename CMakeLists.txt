@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD           20)
 set(CMAKE_CXX_STANDARD_REQUIRED  ON)
 set(CMAKE_CXX_EXTENSIONS        OFF)
 
-project(mdsanima VERSION 0.1.0)
+project(mdsanima VERSION 0.1.1)
 
 add_executable(${PROJECT_NAME}-awesome example/mdsanima-awesome/src/main.c)
 add_executable(${PROJECT_NAME}-fantastic example/mdsanima-fantastic/src/main.cc)

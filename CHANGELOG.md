@@ -4,7 +4,25 @@ All notable changes to this project will be documented in this file. See [Conven
 
 <!-- markdownlint-disable -->
 
-## 0.1.0 (_2024-02-24_)
+## [0.1.1](https://github.com/mdsanima-lab/cmake-demo/compare/v0.1.0...v0.1.1) (_2024-02-25_)
+
+### 🤿 Enhancements
+
+- add cmake configuration for multiple targets ([#10](https://github.com/mdsanima-lab/cmake-demo/issues/10))
+
+### 💻 Refactors
+
+- rename and clean up example projects ([#9](https://github.com/mdsanima-lab/cmake-demo/issues/9))
+
+### 📝 Documentation
+
+- add instruction for build and run programs ([#11](https://github.com/mdsanima-lab/cmake-demo/issues/11))
+
+### 🧢 Style
+
+- align codebase with 2-space indentation standard ([#8](https://github.com/mdsanima-lab/cmake-demo/issues/8))
+
+## [0.1.0](https://github.com/mdsanima-lab/cmake-demo/releases/v0.1.0) (_2024-02-24_)
 
 ### 🤿 Enhancements
 
