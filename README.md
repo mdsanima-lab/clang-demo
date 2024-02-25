@@ -32,3 +32,33 @@ You can now run the demo programs by typing the following command inside the `bu
 ```
 
 You can also run the programs from the top-lever directory by simply adding the full path to the executable files like this `./build/mdsanima-awesome` command.
+
+## Example
+
+There are various ways to create a project, one of which is as I presented here. The source files are located in the `src` directory, but you can also put all the files in one directory; it all depends on the project.
+
+> [!NOTE]
+> To manualy build the demo programs, you can use the `gcc` or `g++` command to compile and link the source code files.
+
+Here is a example instruction for compiling and linking the source code files, type the following command:
+
+```shell
+cd example/mdsanima-awesome && mkdir build
+gcc -o build/mdsanima-awesome src/main.c
+./build/mdsanima-awesome
+```
+
+This method is only recommended if you want to manually build the program.
+
+> [!IMPORTANT]
+> The sample projects are written in **C** and **C++** languages, and the source code files have extensions `.c`, `.cc`, and `.cpp`. You can also use the `.cxx` file format. Here is just an example. Remember to use the chosen format and be consistent with it.
+
+All projects are the same; they only differ in the text displayed in the terminal and in other file extensions.
+
+## Google Style Guide
+
+Also, check how _Google_ does it. Here is a [C++ Style Guide](https://google.github.io/styleguide/cppguide.html) and [Objective-C Style Guide](https://google.github.io/styleguide/objcguide.html) provided by the [Google Style Guide](https://github.com/google/styleguide). The complete guide for naming conventions, variables, functions, and more by _Google_.
+
+This comprehensive guide includes code style conventions for **C/C++**, _Python_ or other languages, covering variable names, function and file names, and more. It has been authored, revised, and maintained by many Googlers.
+
+This adjustment maintains clarity while enhancing the flow of information.
