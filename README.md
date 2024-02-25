@@ -16,7 +16,7 @@ After running the above command, a `build` folder will be created, containing th
 > [!CAUTION]
 > These files are generated automatically based on the configuration in the `CMakeLists.txt` file.
 
-Navigate to the `build` directory and run the `make` command to build the executable files for the three demo programs:
+Navigate to the `build` directory and run the `make` command to build the executable files for the four demo programs:
 
 ```shell
 cd build
@@ -29,11 +29,12 @@ You can now run the demo programs by typing the following command inside the `bu
 ./mdsanima-awesome
 ./mdsanima-fantastic
 ./mdsanima-remarkable
+./mdsanima-stunning
 ```
 
 You can also run the programs from the top-lever directory by simply adding the full path to the executable files like this `./build/mdsanima-awesome` command.
 
-## Example
+## Example Programs
 
 There are various ways to create a project, one of which is as I presented here. The source files are located in the `src` directory, but you can also put all the files in one directory; it all depends on the project.
 
@@ -44,14 +45,14 @@ Here is a example instruction for compiling and linking the source code files, t
 
 ```shell
 cd example/mdsanima-awesome && mkdir build
-gcc -o build/mdsanima-awesome src/main.c
+gcc -o build/mdsanima-awesome main.c
 ./build/mdsanima-awesome
 ```
 
 This method is only recommended if you want to manually build the program.
 
 > [!IMPORTANT]
-> The sample projects are written in **C** and **C++** languages, and the source code files have extensions `.c`, `.cc`, and `.cpp`. You can also use the `.cxx` file format. Here is just an example. Remember to use the chosen format and be consistent with it.
+> The sample projects are written in **C** and **C++** languages, and the source code files have extensions `.c`, `.cc`, and `.cpp`. You can also use the `.cxx` file format, as we added in the example project. Here is just an example. Remember to use the chosen format and be consistent with it.
 
 All projects are the same; they only differ in the text displayed in the terminal and in other file extensions.
 
