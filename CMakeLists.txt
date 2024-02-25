@@ -11,5 +11,5 @@ project(mdsanima VERSION 0.1.1)
 
 add_executable(${PROJECT_NAME}-awesome example/mdsanima-awesome/main.c)
 add_executable(${PROJECT_NAME}-fantastic example/mdsanima-fantastic/main.cc)
-add_executable(${PROJECT_NAME}-remarkable example/mdsanima-remarkable/main.cpp)
+add_executable(${PROJECT_NAME}-incredible example/mdsanima-incredible/main.cpp)
 add_executable(${PROJECT_NAME}-stunning example/mdsanima-stunning/main.cxx)

@@ -28,7 +28,7 @@ You can now run the demo programs by typing the following command inside the `bu
 ```shell
 ./mdsanima-awesome
 ./mdsanima-fantastic
-./mdsanima-remarkable
+./mdsanima-incredible
 ./mdsanima-stunning
 ```
 
