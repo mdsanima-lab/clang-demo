@@ -4,6 +4,26 @@ All notable changes to this project will be documented in this file. See [Conven
 
 <!-- markdownlint-disable -->
 
+## [0.1.2](https://github.com/mdsanima-lab/cmake-demo/compare/v0.1.1...v0.1.2) (_2024-02-25_)
+
+### 🤿 Enhancements
+
+- add `mdsanima-stunning` example project ([#15](https://github.com/mdsanima-lab/cmake-demo/issues/15))
+
+### 💻 Refactors
+
+- move source files under project directory ([#14](https://github.com/mdsanima-lab/cmake-demo/issues/14))
+- remame example from `remarkable` to `incredible` ([#16](https://github.com/mdsanima-lab/cmake-demo/issues/16))
+
+### 📝 Documentation
+
+- enhanced instroction for manual build ([#12](https://github.com/mdsanima-lab/cmake-demo/issues/12))
+
+### 🎪 Chore
+
+- remove obsolete project readmes ([#13](https://github.com/mdsanima-lab/cmake-demo/issues/13))
+- update project descriptions and corrected typos ([#17](https://github.com/mdsanima-lab/cmake-demo/issues/17))
+
 ## [0.1.1](https://github.com/mdsanima-lab/cmake-demo/compare/v0.1.0...v0.1.1) (_2024-02-25_)
 
 ### 🤿 Enhancements
