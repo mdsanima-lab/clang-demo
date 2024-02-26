@@ -1,9 +1,6 @@
----
+Language: Cpp
+
 BasedOnStyle: Google
 ColumnLimit: 80
 IndentWidth: 2
----
-Language: Cpp
-ColumnLimit: 80
-IndentWidth: 2
----
+SpacesBeforeTrailingComments: 2
