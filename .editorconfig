@@ -33,6 +33,9 @@ max_line_length = 80
 insert_final_newline = false
 max_line_length = off
 
+[{.clang-format,.clang-tidy}]
+indent_size = 2
+
 [{CMakeLists.txt,*.{cmake,c,h,cc,hh,cpp,hpp,cxx,hxx}}]
 indent_size = 2
 max_line_length = 80
