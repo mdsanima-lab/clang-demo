@@ -4,6 +4,30 @@ All notable changes to this project will be documented in this file. See [Conven
 
 <!-- markdownlint-disable -->
 
+## [0.2.0](https://github.com/mdsanima-lab/cmake-demo/compare/v0.1.2...v0.2.0) (_2024-02-29_)
+
+### 🤿 Enhancements
+
+- add mdsanima-amarok project with install targets ([#21](https://github.com/mdsanima-lab/cmake-demo/issues/21))
+- introduce clang-tidy checks ([#19](https://github.com/mdsanima-lab/cmake-demo/issues/19))
+
+### 🚀 Performance
+
+- avoid `std::endl` on streams ([#20](https://github.com/mdsanima-lab/cmake-demo/issues/20))
+
+### 📝 Documentation
+
+- add installation guide for mdsanima-amarok ([#22](https://github.com/mdsanima-lab/cmake-demo/issues/22))
+
+### 🧢 Style
+
+- add configuration for `.todo` file ([e122f31](https://github.com/mdsanima-lab/cmake-demo/commit/e122f31d1cf923788a661dd89c708094d71ff14e))
+- refine commentary across multiple projects ([#18](https://github.com/mdsanima-lab/cmake-demo/issues/18))
+
+### 🎪 Chore
+
+- initialized placeholder dirs for project structure ([#23](https://github.com/mdsanima-lab/cmake-demo/issues/23))
+
 ## [0.1.2](https://github.com/mdsanima-lab/cmake-demo/compare/v0.1.1...v0.1.2) (_2024-02-25_)
 
 ### 🤿 Enhancements
