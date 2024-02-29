@@ -34,6 +34,30 @@ You can now run the demo programs by typing the following command inside the `bu
 
 You can also run the programs from the top-lever directory by simply adding the full path to the executable files like this `./build/mdsanima-awesome` command.
 
+## Project Programs
+
+The project programs are located in the `project` directory, and the executable files are located in the `build` directory. After running the first command `cmake -B build` to generate the build files for the _example_ and _project_ programs, and then running the `make` command to build the executable files, you can run the _example_ programs that we showed above.
+
+The _mdsanima-amarok_ program is quite different; you can install the project program by typing the following command:
+
+```shell
+cd build
+sudo make install
+```
+
+That command will install the _mdsanima-amarok_ project program in the `/usr/local/bin` directory, and you can run the program by typing the following command:
+
+```shell
+mdsanima-amarok
+```
+
+Now you can run the program in any directory on your system.
+
+> [!NOTE]
+> The `CMakeLists.txt` file contains configuration for the static library and install command for this project.
+
+The installation command will also create the `mdsanima.h` file in the `/usr/local/include` directory and the `libmdsanima.a` file in the `/usr/local/lib` directory that you can use later in your own project.
+
 ## Example Programs
 
 There are various ways to create a project, one of which is as I presented here. The source files are located in the `src` directory, but you can also put all the files in one directory; it all depends on the project.
