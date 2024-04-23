@@ -41,15 +41,15 @@ You can now run the demo programs by typing the following command inside the `bu
 
 ```shell
 ./mdsanima-amarok
-./mdsanima-awesome
 ./mdsanima-blizzard
+./mdsanima-deeply
 ./mdsanima-fantastic
 ./mdsanima-incredible
 ./mdsanima-stunning
 ```
 
 You can also run the programs from the top-lever directory by simply adding the full path to the
-executable files like this `./build/mdsanima-awesome` command.
+executable files like this `./build/mdsanima-deeply` command.
 
 ## Project Programs
 
@@ -94,9 +94,9 @@ Here is a example instruction for compiling and linking the source code files, t
 command:
 
 ```shell
-cd example/mdsanima-awesome && mkdir build
-gcc -o build/mdsanima-awesome main.c
-./build/mdsanima-awesome
+cd example/mdsanima-deeply && mkdir build
+gcc -o build/mdsanima-deeply main.c
+./build/mdsanima-deeply
 ```
 
 This method is only recommended if you want to manually build the program.

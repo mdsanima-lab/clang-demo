@@ -10,7 +10,7 @@ set(CMAKE_CXX_EXTENSIONS        OFF)
 project(mdsanima VERSION 0.2.0)
 
 # Example demo programs
-add_executable(${PROJECT_NAME}-awesome example/mdsanima-awesome/main.c)
+add_executable(${PROJECT_NAME}-deeply example/mdsanima-deeply/main.c)
 add_executable(${PROJECT_NAME}-fantastic example/mdsanima-fantastic/main.cc)
 add_executable(${PROJECT_NAME}-incredible example/mdsanima-incredible/main.cpp)
 add_executable(${PROJECT_NAME}-stunning example/mdsanima-stunning/main.cxx)
@@ -30,8 +30,8 @@ target_link_libraries(mdsanima-blizzard mdsanima)
 
 # Installation of the demo programs
 install(TARGETS mdsanima-amarok DESTINATION bin)
-install(TARGETS mdsanima-awesome DESTINATION bin)
 install(TARGETS mdsanima-blizzard DESTINATION bin)
+install(TARGETS mdsanima-deeply DESTINATION bin)
 install(TARGETS mdsanima-fantastic DESTINATION bin)
 install(TARGETS mdsanima-incredible DESTINATION bin)
 install(TARGETS mdsanima-stunning DESTINATION bin)
