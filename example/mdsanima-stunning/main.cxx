@@ -5,6 +5,4 @@
 
 #include <iostream>
 
-auto main() -> int {
-  std::cout << "Hello World from the MDSANIMA STUNNING" << '\n';
-}
+auto main() -> int { std::cout << "Hello World from the MDSANIMA STUNNING" << '\n'; }

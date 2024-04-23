@@ -6,6 +6,6 @@
 #include <stdio.h>
 
 int main(void) {
-  puts("Hello World from the MDSANIMA AWESOME");
-  return 0;
+    puts("Hello World from the MDSANIMA AWESOME");
+    return 0;
 }

@@ -1,4 +1,4 @@
-# Maintain consistent coding style
+# Maintain consistent coding style across the entire project.
 
 root = true
 
@@ -9,37 +9,45 @@ indent_size = 4
 indent_style = space
 insert_final_newline = true
 trim_trailing_whitespace = true
-max_line_length = 120
 quote_type = double
 
-[*.{commitlintrc,eslint*,js,jsx,json,md,mjs,ts,tsx,versionrc,todo}]
+[*.{commitlintrc,eslint*,html,css,js,jsx,json,md,mjs,ts,tsx,versionrc,todo}]
 indent_size = 2
+max_line_length = 100
 
-[*.{html,yml,yaml}]
+[*.{yml,yaml}]
 indent_size = 2
 max_line_length = off
 
 [*.{ps1,psm1,psd1}]
-max_line_length = 115
+indent_size = 4
+max_line_length = 100
 
 [*.py]
 profile = black
+indent_size = 4
+max_line_length = 100
 
-[*.{sh,bash,zsh,vim}]
-indent_size = 2
-max_line_length = 80
+[*.{sh,bash,zsh*,vim}]
+indent_size = 4
+max_line_length = 100
 
 [{*.svg,.env*}]
 insert_final_newline = false
+indent_size = 2
 max_line_length = off
 
 [{.clang-format,.clang-tidy}]
 indent_size = 2
+max_line_length = 100
 
 [{CMakeLists.txt,*.{cmake,c,h,cc,hh,cpp,hpp,cxx,hxx}}]
-indent_size = 2
-max_line_length = 80
+indent_size = 4
+max_line_length = 100
 
 [{Makefile,.gitattributes,.gitconfig,.gitcredentials,.gitmessage,.gitmodules}]
 indent_size = 8
 indent_style = tab
+
+[COMMIT_EDITMSG]
+max_line_length = 72
