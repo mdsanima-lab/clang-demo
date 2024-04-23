@@ -6,8 +6,8 @@ Introduction to [CMake](https://cmake.org/) configuration for building and runni
 > [!NOTE]
 > To build the sample _demo_ programs that are in the _example_ and _project_ directory, we are
 > using `cmake` build system command on **WSL** or another virtual machine with a **GNU/Linux**
-> system, such as **Debian** or **Ubuntu**. The choice is yours. Currently, we only support the
-> _amd64_ architecture.
+> system, such as **Debian**, **Ubuntu**, **Fedora**, **CentOS**, and so on. The choice is yours.
+> Currently, we only support the _amd64_ architecture.
 
 Make sure you have a program called **CMake** installed, as well as a compiler for the **C/C++**
 languages, typically by entering the following command in the terminal:
@@ -42,6 +42,7 @@ You can now run the demo programs by typing the following command inside the `bu
 ```shell
 ./mdsanima-amarok
 ./mdsanima-awesome
+./mdsanima-blizzard
 ./mdsanima-fantastic
 ./mdsanima-incredible
 ./mdsanima-stunning
