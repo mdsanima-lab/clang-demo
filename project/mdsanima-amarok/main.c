@@ -7,9 +7,9 @@
 #include <stdio.h>
 
 int main(void) {
-  const int redColor = 196;
+    const int redColor = 196;
 
-  cprint("Hello World from the MDSANIMA AMAROK\n", redColor);
+    cprint("Hello World from the MDSANIMA AMAROK\n", redColor);
 
-  return 0;
+    return 0;
 }

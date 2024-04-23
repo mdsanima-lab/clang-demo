@@ -5,6 +5,4 @@
 
 #include <stdio.h>
 
-void cprint(char* text, int foreground) {
-  printf("\e[38;5;%dm%s\e[0m", foreground, text);
-}
+void cprint(char* text, int foreground) { printf("\e[38;5;%dm%s\e[0m", foreground, text); }
