@@ -1,11 +1,22 @@
 # cmake-demo
 
-Introduction to **CMake** configuration for building and running simple demo **C** and **C++**
-programs.
+Introduction to [CMake](https://cmake.org/) configuration for building and running simple demo
+**C/C++** programs.
 
 > [!NOTE]
-> To build the sample _demo_ programs that are in the `example` directory, we are using
-> [CMake](https://cmake.org/) build system.
+> To build the sample _demo_ programs that are in the _example_ and _project_ directory, we are
+> using `cmake` build system command on **WSL** or another virtual machine with a **GNU/Linux**
+> system, such as **Debian** or **Ubuntu**. The choice is yours. Currently, we only support the
+> _amd64_ architecture.
+
+Make sure you have a program called **CMake** installed, as well as a compiler for the **C/C++**
+languages, typically by entering the following command in the terminal:
+
+```shell
+sudo apt update
+sudo apt install cmake gcc g++
+cmake --version
+```
 
 First step is a create build directory and generate the build files using `cmake` command from the
 top-level project directory, type the following command:
@@ -15,13 +26,11 @@ cmake -B build
 ```
 
 After running the above command, a `build` folder will be created, containing the necessary files to
-build the demo programs.
-
-> [!CAUTION]
-> These files are generated automatically based on the configuration in the `CMakeLists.txt` file.
+build the demo programs. These files are generated automatically based on the configuration in the
+`CMakeLists.txt` file.
 
 Navigate to the `build` directory and run the `make` command to build the executable files for the
-four demo programs:
+demo programs:
 
 ```shell
 cd build
@@ -31,6 +40,7 @@ make
 You can now run the demo programs by typing the following command inside the `build` directory:
 
 ```shell
+./mdsanima-amarok
 ./mdsanima-awesome
 ./mdsanima-fantastic
 ./mdsanima-incredible
@@ -62,11 +72,8 @@ and you can run the program by typing the following command:
 mdsanima-amarok
 ```
 
-Now you can run the program in any directory on your system.
-
-> [!NOTE]
-> The `CMakeLists.txt` file contains configuration for the static library and install command for
-> this project.
+Now you can run the program in any directory on your system. The `CMakeLists.txt` file contains
+configuration for the static library and install command for this project.
 
 The installation command will also create the `mdsanima.h` file in the `/usr/local/include`
 directory and the `libmdsanima.a` file in the `/usr/local/lib` directory that you can use later in
