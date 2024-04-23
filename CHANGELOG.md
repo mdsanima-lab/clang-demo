@@ -15,7 +15,7 @@ All notable changes to this project will be documented in this file. See [Conven
 
 - avoid `std::endl` on streams ([#20](https://github.com/mdsanima-lab/cmake-demo/issues/20))
 
-### 📝 Documentation
+### 📚 Documentation
 
 - add installation guide for mdsanima-amarok ([#22](https://github.com/mdsanima-lab/cmake-demo/issues/22))
 
@@ -39,7 +39,7 @@ All notable changes to this project will be documented in this file. See [Conven
 - move source files under project directory ([#14](https://github.com/mdsanima-lab/cmake-demo/issues/14))
 - remame example from `remarkable` to `incredible` ([#16](https://github.com/mdsanima-lab/cmake-demo/issues/16))
 
-### 📝 Documentation
+### 📚 Documentation
 
 - enhanced instroction for manual build ([#12](https://github.com/mdsanima-lab/cmake-demo/issues/12))
 
@@ -58,7 +58,7 @@ All notable changes to this project will be documented in this file. See [Conven
 
 - rename and clean up example projects ([#9](https://github.com/mdsanima-lab/cmake-demo/issues/9))
 
-### 📝 Documentation
+### 📚 Documentation
 
 - add instruction for build and run programs ([#11](https://github.com/mdsanima-lab/cmake-demo/issues/11))
 
@@ -73,7 +73,7 @@ All notable changes to this project will be documented in this file. See [Conven
 - add example code for base c project ([#7](https://github.com/mdsanima-lab/cmake-demo/issues/7))
 - add example code for base cpp project ([#6](https://github.com/mdsanima-lab/cmake-demo/issues/6))
 
-### 📝 Documentation
+### 📚 Documentation
 
 - update README ([c7acebd](https://github.com/mdsanima-lab/cmake-demo/commit/c7acebd42317d0a9613964bfc272c390d6d362a2))
 
