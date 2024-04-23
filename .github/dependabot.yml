@@ -1,18 +1,11 @@
 version: 2
 
 updates:
+
   - package-ecosystem: github-actions
-    directory: /
+    directory: /.github/workflows
     schedule:
       interval: daily
       timezone: Europe/Warsaw
       time: "10:00"
-    labels: [deps, ci, workflow]
-
-  - package-ecosystem: pip
-    directory: /
-    schedule:
-      interval: daily
-      timezone: Europe/Warsaw
-      time: "11:00"
-    labels: [deps, python, pip]
+    labels: [dependencies, ci]
