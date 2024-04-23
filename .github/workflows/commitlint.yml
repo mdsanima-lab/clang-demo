@@ -1,4 +1,4 @@
-name: Lint Commit Messages
+name: Linting Commit Messages
 
 on: [pull_request]
 
@@ -20,4 +20,4 @@ jobs:
       - name: Run commitlint
         uses: wagoid/commitlint-github-action@v5
         with:
-          configFile: .github/commitlint.config.js
+          configFile: .github/commitlint.config.mjs
