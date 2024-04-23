@@ -20,7 +20,7 @@ add_executable(${PROJECT_NAME}-amarok project/mdsanima-amarok/main.c)
 add_executable(${PROJECT_NAME}-blizzard project/mdsanima-blizzard/main.c)
 
 # Project demo library
-add_library(${PROJECT_NAME} STATIC project/mdsanima-amarok/mdsanima.c)
+add_library(${PROJECT_NAME} STATIC lib/mdsanima.c)
 
 # Targeting the library
 target_include_directories(mdsanima INTERFACE project/mdsanima-amarok/)
@@ -38,4 +38,4 @@ install(TARGETS mdsanima-stunning DESTINATION bin)
 
 # Installation of the demo library
 install(TARGETS mdsanima DESTINATION lib)
-install(FILES project/mdsanima-amarok/mdsanima.h DESTINATION include)
+install(FILES lib/mdsanima.h DESTINATION include)
