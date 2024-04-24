@@ -1,7 +1,7 @@
 // Copyright (c) 2024 MDSANIMA LAB. All rights reserved.
 // Licensed under the MIT license.
 
-// The demo MDSANIMA C library on the demo MDSANIMA AMAROK project.
+// The `MDSANIMA` demo C library for the demo `MDSANIMA AMAROK` and `MDSANIMA BLIZZARD` projects.
 
 #include <stdio.h>
 
