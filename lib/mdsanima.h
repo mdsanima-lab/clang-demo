@@ -1,7 +1,7 @@
 // Copyright (c) 2024 MDSANIMA LAB. All rights reserved.
 // Licensed under the MIT license.
 
-// The demo MDSANIMA C library on the demo MDSANIMA AMAROK project.
+// The `MDSANIMA` demo C library that is used to print text in the terminal with colors.
 
 #ifndef MDSANIMA_H
 #define MDSANIMA_H
