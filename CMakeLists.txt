@@ -22,20 +22,21 @@ add_executable(${PROJECT_NAME}-blizzard project/mdsanima-blizzard/main.c)
 # Project demo library
 add_library(${PROJECT_NAME} STATIC lib/mdsanima.c)
 
-# Targeting the library
-target_include_directories(mdsanima INTERFACE project/mdsanima-amarok/)
-target_include_directories(mdsanima INTERFACE project/mdsanima-blizzard/)
+# Targeting demo library
 target_link_libraries(mdsanima-amarok mdsanima)
 target_link_libraries(mdsanima-blizzard mdsanima)
 
-# Installation of the demo programs
+# Targeting demo programs
+target_include_directories(mdsanima INTERFACE project/mdsanima-amarok/)
+target_include_directories(mdsanima INTERFACE project/mdsanima-blizzard/)
+
+# Installing demo programs
 install(TARGETS mdsanima-amarok DESTINATION bin)
 install(TARGETS mdsanima-blizzard DESTINATION bin)
-install(TARGETS mdsanima-deeply DESTINATION bin)
-install(TARGETS mdsanima-fantastic DESTINATION bin)
-install(TARGETS mdsanima-incredible DESTINATION bin)
-install(TARGETS mdsanima-stunning DESTINATION bin)
 
-# Installation of the demo library
+# Installing demo library
 install(TARGETS mdsanima DESTINATION lib)
 install(FILES lib/mdsanima.h DESTINATION include)
+
+# Copy header file to the include directory
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/lib/mdsanima.h DESTINATION include)

@@ -66,11 +66,12 @@ cd build
 sudo make install
 ```
 
-That command will install the _mdsanima-amarok_ project program in the `/usr/local/bin` directory,
-and you can run the program by typing the following command:
+That command will install the _mdsanima-amarok_ and _mdsanima-blizzard_ project programs in the
+`/usr/local/bin` directory, and you can run the program by typing the following command:
 
 ```shell
 mdsanima-amarok
+mdsanima-blizzard
 ```
 
 Now you can run the program in any directory on your system. The `CMakeLists.txt` file contains
