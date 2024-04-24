@@ -37,6 +37,13 @@ cd build
 make
 ```
 
+> [!CAUTION]
+> For the build to succeed, you must copy the header file `mdsanima.h` into the `/usr/local/include`
+> directory. This is because the `mdsanima.h` header file is a part of the **MDSANIMA** library,
+> which is not a part of the **CMake** build system right now. To copy this file to the destination
+> directory, type the following command in the terminal `sudo cp lib/mdsanima.h /usr/local/include`
+> and then run the `make` command again.
+
 You can now run the demo programs by typing the following command inside the `build` directory:
 
 ```shell
