@@ -4,6 +4,44 @@ All notable changes to this project will be documented in this file. See [Conven
 
 <!-- markdownlint-disable -->
 
+## [0.2.1](https://github.com/mdsanima-lab/cmake-demo/compare/v0.2.0...v0.2.1) (_2024-04-24_)
+
+### 🤿 Enhancements
+
+- add background parameter on cprint ([#32](https://github.com/mdsanima-lab/cmake-demo/issues/32))
+- add demo blizzard project and cleanup ([#33](https://github.com/mdsanima-lab/cmake-demo/issues/33))
+- add demo conquest project and cleanup ([#38](https://github.com/mdsanima-lab/cmake-demo/issues/38))
+
+### 🚧 Fixes
+
+- commitlint config file with .mjs extension ([#28](https://github.com/mdsanima-lab/cmake-demo/issues/28))
+- missing include header file ([#36](https://github.com/mdsanima-lab/cmake-demo/issues/36))
+
+### 💻 Refactors
+
+- move mdsanima.c and mdsanima.h to lib ([#35](https://github.com/mdsanima-lab/cmake-demo/issues/35))
+- rename example mdsanima awesome to deeply ([#34](https://github.com/mdsanima-lab/cmake-demo/issues/34))
+
+### 📚 Documentation
+
+- missing header file instruction ([#39](https://github.com/mdsanima-lab/cmake-demo/issues/39))
+- update and clean instructions ([#37](https://github.com/mdsanima-lab/cmake-demo/issues/37))
+- update instruction how to build ([#31](https://github.com/mdsanima-lab/cmake-demo/issues/31))
+
+### 📦 Build
+
+- **deps:** bump wagoid/commitlint-github-action from 5 to 6 ([#24](https://github.com/mdsanima-lab/cmake-demo/issues/24))
+
+### 🧢 Style
+
+- standardize code formatting ([#25](https://github.com/mdsanima-lab/cmake-demo/issues/25))
+- update types for changelog generation ([#26](https://github.com/mdsanima-lab/cmake-demo/issues/26))
+
+### 🤖 CI
+
+- add more labels ([#27](https://github.com/mdsanima-lab/cmake-demo/issues/27))
+- remove unused pip package ecosystem ([#29](https://github.com/mdsanima-lab/cmake-demo/issues/29))
+
 ## [0.2.0](https://github.com/mdsanima-lab/cmake-demo/compare/v0.1.2...v0.2.0) (_2024-02-29_)
 
 ### 🤿 Enhancements
