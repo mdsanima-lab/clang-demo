@@ -42,14 +42,14 @@ You can now run the demo programs by typing the following command inside the `bu
 ```shell
 ./mdsanima-amarok
 ./mdsanima-blizzard
-./mdsanima-deeply
+./mdsanima-conquest
 ./mdsanima-fantastic
 ./mdsanima-incredible
 ./mdsanima-stunning
 ```
 
 You can also run the programs from the top-lever directory by simply adding the full path to the
-executable files like this `./build/mdsanima-deeply` command.
+executable files like this `./build/mdsanima-fantastic` command.
 
 ## Project Programs
 
@@ -58,20 +58,22 @@ the `build` directory. After running the first command `cmake -B build` to gener
 for the _example_ and _project_ programs, and then running the `make` command to build the
 executable files, you can run the _example_ programs that we showed above.
 
-The _mdsanima-amarok_ program is quite different; you can install the project program by typing the
-following command:
+The _mdsanima-amarok_, _mdsanima-blizzard_ and _mdsanima-conquest_ program is quite different. You
+can install the project program by typing the following command:
 
 ```shell
 cd build
 sudo make install
 ```
 
-That command will install the _mdsanima-amarok_ and _mdsanima-blizzard_ project programs in the
-`/usr/local/bin` directory, and you can run the program by typing the following command:
+That command will install the _mdsanima-amarok_, _mdsanima-blizzard_ and _mdsanima-conquest_ project
+demo programs in the `/usr/local/bin` directory, and you can run the program by typing the following
+command:
 
 ```shell
 mdsanima-amarok
 mdsanima-blizzard
+mdsanima-conquest
 ```
 
 Now you can run the program in any directory on your system. The `CMakeLists.txt` file contains
@@ -95,9 +97,9 @@ Here is a example instruction for compiling and linking the source code files, t
 command:
 
 ```shell
-cd example/mdsanima-deeply && mkdir build
-gcc -o build/mdsanima-deeply main.c
-./build/mdsanima-deeply
+cd example/mdsanima-fantastic && mkdir build
+g++ -o build/mdsanima-fantastic main.cc
+./build/mdsanima-fantastic
 ```
 
 This method is only recommended if you want to manually build the program.
