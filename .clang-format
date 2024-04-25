@@ -1,6 +1,17 @@
+# Maintain consistent coding style across the entire project.
+
+# This is a configuration file for clang-format.
+
+# C Language specifics.
 Language: Cpp
 
+# Based on Google's C++ style guide.  Customized for my own preferences.
 BasedOnStyle: Google
+
+# These settings are mirrored in .editorconfig.  Keep them in sync.
 ColumnLimit: 100
 IndentWidth: 4
+UseTab: Never
+
+# These settings are the same as Python black.
 SpacesBeforeTrailingComments: 2

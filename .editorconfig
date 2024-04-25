@@ -1,5 +1,10 @@
 # Maintain consistent coding style across the entire project.
 
+# This is a configuration file for EditorConfig.
+
+# The settings for JavaScript, Python and C/C++ files are mirrored by language in .prettierrc,
+# .eslintrc, .flake8, .pylintrc, pyproject.toml and .clang-format.  Keep them in sync.
+
 root = true
 
 [*]
@@ -11,7 +16,7 @@ insert_final_newline = true
 trim_trailing_whitespace = true
 quote_type = double
 
-[*.{commitlintrc,eslint*,html,css,js,jsx,json,md,mjs,ts,tsx,versionrc,todo}]
+[*.{commitlintrc,eslint*,prettier*,html,css,js,jsx,json,md,mjs,ts,tsx,versionrc,todo}]
 indent_size = 2
 max_line_length = 100
 
