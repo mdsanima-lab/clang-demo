@@ -451,5 +451,8 @@ temp
 .tmp
 .temp
 
+# Temporary files case sensitive todo markdown
+*[Tt][Oo][Dd][Oo].md
+
 # Extension sqltools connections secrets
 .vscode*
