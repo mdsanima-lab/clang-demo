@@ -1,8 +1,11 @@
 // Copyright (c) 2024 MDSANIMA LAB. All rights reserved.
 // Licensed under the MIT license.
 
-// Simple C++ implementation of the example `MDSANIMA INCREDIBLE` demo project.
+// The main C++ program of `MDSANIMA INCREDIBLE` example demo project.
 
-#include <iostream>
+#include "lib.hpp"
 
-auto main() -> int { std::cout << "Hello World from the MDSANIMA INCREDIBLE" << '\n'; }
+auto main() -> int {
+    const char* message = "Hello World from the MDSANIMA INCREDIBLE";
+    mprint(message);
+}
