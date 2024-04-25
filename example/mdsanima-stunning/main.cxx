@@ -5,13 +5,13 @@
 
 #include "lib.hxx"
 
-auto main() -> int {
-    const char* message = "Hello world from the MDSANIMA STUNNING demo program";
+auto main() -> int
+{
+    const char *message = "Hello world from the MDSANIMA STUNNING demo program";
+    const int blue      = 27;
+    const int black     = 0;
+
     mprint(message);
-
-    const int blue = 27;
     mprint(message, blue);
-
-    const int black = 0;
     mprint(message, black, blue);
 }
