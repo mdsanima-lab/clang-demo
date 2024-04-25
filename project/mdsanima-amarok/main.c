@@ -1,19 +1,17 @@
 // Copyright (c) 2024 MDSANIMA LAB. All rights reserved.
 // Licensed under the MIT license.
 
-// Simple C implementation of the demo `MDSANIMA AMAROK` project. This project is a simple demo of
-// the basic usage of the `MDSANIMA` demo C library that can build and run on amd64 GNU/Linux
-// system, such as Debian, Ubuntu, Fedora, CentOS, and so on. The main funcionality of this project
-// is to print text in the terminal with a color.
+// The main C demo program for the `MDSANIMA AMAROK` project.
 
 #include <mdsanima.h>
-#include <stdio.h>
 
-int main(void) {
-    const int foregroundColor = 45;
-    const int backgroundColor = 27;
+int main(void)
+{
+    const char *message = " MDSANIMA AMAROK ";
+    const int orange    = 202;  // Text color
+    const int red       = 196;  // Background color
 
-    cprint(" MDSANIMA AMAROK \n", foregroundColor, backgroundColor);
+    cprint(message, orange, red);
 
     return 0;
 }
