@@ -6,6 +6,6 @@
 #include "lib.hxx"
 
 auto main() -> int {
-    const char* message = "Hello World from the MDSANIMA STUNNING";
+    const char* message = "Hello World from the MDSANIMA STUNNING demo program!";
     mprint(message);
 }
