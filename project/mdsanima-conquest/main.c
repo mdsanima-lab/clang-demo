@@ -1,19 +1,17 @@
 // Copyright (c) 2024 MDSANIMA LAB. All rights reserved.
 // Licensed under the MIT license.
 
-// Simple C implementation of the demo `MDSANIMA CONQUEST` project. This project is a simple demo of
-// the basic usage of the `MDSANIMA` demo C library that can build and run on amd64 GNU/Linux
-// system, such as Debian, Ubuntu, Fedora, CentOS, and so on. The main funcionality of this project
-// is to print text in the terminal with a color.
+// The main C demo program for the `MDSANIMA CONQUEST` project.
 
 #include <mdsanima.h>
-#include <stdio.h>
 
-int main(void) {
-    const int foregroundColor = 45;
-    const int backgroundColor = 27;
+int main(void)
+{
+    const char *message = " MDSANIMA CONQUEST ";
+    const int sky       = 45;  // Text color
+    const int blue      = 27;  // Background color
 
-    cprint(" MDSANIMA CONQUEST \n", foregroundColor, backgroundColor);
+    cprint(message, sky, blue);
 
     return 0;
 }
