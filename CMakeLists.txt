@@ -9,18 +9,20 @@ set(CMAKE_CXX_EXTENSIONS        OFF)
 
 project(mdsanima VERSION 0.2.1)
 
-# Example demo fantastic program
+# Example demo program fantastic
 add_executable(${PROJECT_NAME}-fantastic example/mdsanima-fantastic/main.cc)
 add_library(fantastic SHARED example/mdsanima-fantastic/lib.cc)
 target_link_libraries(${PROJECT_NAME}-fantastic fantastic)
 
-# Example demo incredible program
+# Example demo program incredible
 add_executable(${PROJECT_NAME}-incredible example/mdsanima-incredible/main.cpp)
 add_library(incredible SHARED example/mdsanima-incredible/lib.cpp)
 target_link_libraries(${PROJECT_NAME}-incredible incredible)
 
-# Example demo stunning program
+# Example demo program stunning
 add_executable(${PROJECT_NAME}-stunning example/mdsanima-stunning/main.cxx)
+add_library(stunning SHARED example/mdsanima-stunning/lib.cxx)
+target_link_libraries(${PROJECT_NAME}-stunning stunning)
 
 # Project demo programs
 add_executable(${PROJECT_NAME}-amarok project/mdsanima-amarok/main.c)
