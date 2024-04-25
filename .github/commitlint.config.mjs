@@ -1,8 +1,12 @@
-// Defined rules on commit messages from PR. See this: https://commitlint.js.org/#/reference-rules
+// Defined rules on commit messages that are checked on pull requests.
 
-/**
- * The array of rule types that are allowed in commit messages.
- */
+// See the documentation for reference rules: https://commitlint.js.org/#/reference-rules
+
+// These rules are used to check if the commit message contains a type.  The type is the first word
+// in the commit message and must match one of the types defined in the `typesRule` array in this
+// configuration file.
+
+/** The array of rule types that are allowed in commit messages. */
 const typesRule = [
   "build",
   "chore",
@@ -17,14 +21,10 @@ const typesRule = [
   "test",
 ];
 
-/**
- * The array of rule subjects that are allowed in commit messages.
- */
+/** The array of rule subjects that are allowed in commit messages. */
 const subjectsRule = ["upper-case", "pascal-case", "sentence-case", "start-case"];
 
-/**
- * The rules configuration for commitlint thats is used in GitHub Workflow Actions.
- */
+/** The rules configuration for commitlint that is used in GitHub Workflow Actions. */
 const commitlintConfig = {
   rules: {
     "type-enum": [2, "always", typesRule],
