@@ -6,6 +6,6 @@
 #include "lib.hpp"
 
 auto main() -> int {
-    const char* message = "Hello World from the MDSANIMA INCREDIBLE";
+    const char* message = "Hello World from the MDSANIMA INCREDIBLE demo program!";
     mprint(message);
 }

@@ -1,7 +1,7 @@
 // Copyright (c) 2024 MDSANIMA LAB. All rights reserved.
 // Licensed under the MIT license.
 
-// Simple C++ example demo of `INCREDIBLE` shared library implementation.
+// Simple C++ example demo of `MDSANIMA INCREDIBLE` shared library implementation.
 
 #include "lib.hpp"
 
