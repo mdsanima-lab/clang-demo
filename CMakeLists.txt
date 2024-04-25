@@ -25,7 +25,7 @@ add_library(stunning SHARED example/mdsanima-stunning/lib.cxx)
 target_link_libraries(${PROJECT_NAME}-stunning stunning)
 
 # Project demo programs
-add_executable(${PROJECT_NAME}-amarok project/mdsanima-amarok/main.c)
+add_executable(${PROJECT_NAME}-amarooke project/mdsanima-amarooke/main.c)
 add_executable(${PROJECT_NAME}-blizzard project/mdsanima-blizzard/main.c)
 add_executable(${PROJECT_NAME}-conquest project/mdsanima-conquest/main.c)
 
@@ -33,17 +33,17 @@ add_executable(${PROJECT_NAME}-conquest project/mdsanima-conquest/main.c)
 add_library(${PROJECT_NAME} STATIC lib/mdsanima.c)
 
 # Targeting demo library
-target_link_libraries(mdsanima-amarok mdsanima)
+target_link_libraries(mdsanima-amarooke mdsanima)
 target_link_libraries(mdsanima-blizzard mdsanima)
 target_link_libraries(mdsanima-conquest mdsanima)
 
 # Targeting demo programs
-target_include_directories(mdsanima INTERFACE project/mdsanima-amarok/)
+target_include_directories(mdsanima INTERFACE project/mdsanima-amarooke/)
 target_include_directories(mdsanima INTERFACE project/mdsanima-blizzard/)
 target_include_directories(mdsanima INTERFACE project/mdsanima-conquest/)
 
 # Installing demo programs
-install(TARGETS mdsanima-amarok DESTINATION bin)
+install(TARGETS mdsanima-amarooke DESTINATION bin)
 install(TARGETS mdsanima-blizzard DESTINATION bin)
 install(TARGETS mdsanima-conquest DESTINATION bin)
 
