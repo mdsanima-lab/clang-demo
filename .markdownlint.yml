@@ -1,0 +1,37 @@
+# Maintain consistent coding style across the entire project.
+
+# This is a configuration file for markdownlint.
+
+# Default state for all rules.
+default: true
+
+# Line length.
+MD013: true
+
+# Trailing heading.
+MD026:
+  punctuation: .,;:!。，；：！
+
+# Multiple spaces blockquote.
+MD027: true
+
+# Inline HTML.
+MD033: false
+
+# Emphasis heading.
+MD036:
+  punctuation: .,;:!?。，；：！？
+
+# Link fragments.
+MD051: false
+
+# Max line length.
+line-length:
+  line_length: 100
+  heading_line_length: 100
+  code_block_line_length: 100
+  code_blocks: true
+  tables: true
+  headings: true
+  strict: true
+  stern: true
