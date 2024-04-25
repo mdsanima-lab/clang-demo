@@ -5,13 +5,13 @@
 
 #include "lib.hpp"
 
-auto main() -> int {
-    const char* message = "Hello world from the MDSANIMA INCREDIBLE demo program";
+auto main() -> int
+{
+    const char *message = "Hello world from the MDSANIMA INCREDIBLE demo program";
+    const int green     = 46;
+    const int black     = 0;
+
     mprint(message);
-
-    const int green = 46;
     mprint(message, green);
-
-    const int black = 0;
     mprint(message, black, green);
 }

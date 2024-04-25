@@ -12,7 +12,7 @@
  *
  * @param text The text message to stdout print on the terminal.
  */
-void mprint(const char* text);
+void mprint(const char *text);
 
 /**
  * Simple color text message printing on the stdout.
@@ -22,9 +22,9 @@ void mprint(const char* text);
  * @warning Reference implementation for the `MDSANIMA FANTASTIC` example demo project.
  *
  * @param text The text message to stdout print in the color on the terminal.
- * @param color The color of the text message. A number from 0 to 255.
+ * @param color The color of the text message.  A number from 0 to 255.
  */
-void mprint(const char* text, int color);
+void mprint(const char *text, int color);
 
 /**
  * Advance color text message printing on the stdout.
@@ -34,7 +34,7 @@ void mprint(const char* text, int color);
  * @warning Reference implementation for the `MDSANIMA FANTASTIC` example demo project.
  *
  * @param text The text message to stdout print in the color on the terminal.
- * @param foreground The foreground color of the text message. A number from 0 to 255.
- * @param background The background color of the text message. A number from 0 to 255.
+ * @param foreground The foreground color of the text message.  A number from 0 to 255.
+ * @param background The background color of the text message.  A number from 0 to 255.
  */
-void mprint(const char* text, int foreground, int background);
+void mprint(const char *text, int foreground, int background);

@@ -7,12 +7,17 @@
 
 #include <iostream>
 
-void mprint(const char* text) { std::cout << text << "\n"; }
+void mprint(const char *text)
+{
+    std::cout << text << "\n";
+}
 
-void mprint(const char* text, int color) {
+void mprint(const char *text, int color)
+{
     std::cout << "\e[38;5;" << color << "m" << text << "\e[0m\n";
 }
 
-void mprint(const char* text, int foreground, int background) {
+void mprint(const char *text, int foreground, int background)
+{
     std::cout << "\e[38;5;" << foreground << "m\e[48;5;" << background << "m" << text << "\e[0m\n";
 }
