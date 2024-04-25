@@ -1,30 +1,40 @@
 // Copyright (c) 2024 MDSANIMA LAB. All rights reserved.
 // Licensed under the MIT license.
 
-// The header C++ example demo project file for `MDSANIMA INCREDIBLE` shared library.
+// The header C++ example demo project file for the `MDSANIMA INCREDIBLE` shared library.
 
 #pragma once
 
 /**
- * Simple text message printing implementation on the terminal stdout.
+ * Basic text message printing on the stdout.
  *
- * @warning This is a reference implementation for the demo purposes only, and is used in the main
- * example demo program for `MDSANIMA INCREDIBLE` project.
+ * @warning Reference implementation for the `MDSANIMA INCREDIBLE` example demo project.
  *
- * @param text The text message to print on the terminal stdout.
+ * @param text The text message to stdout print on the terminal.
  */
 void mprint(const char* text);
 
 /**
- * Simple color text message printing implementation on the terminal stdout.
+ * Simple color text message printing on the stdout.
  *
- * @note You can change the color of the text message that will be printed on the terminal stdout.
- * This function is a wrapper for the ANSI escape sequence.
+ * @note Wrapper for the ANSI escape sequence, where 0 is black and 255 is white.
  *
- * @warning This is a reference implementation for the demo purposes only, and is used in the main
- * example demo program for `MDSANIMA INCREDIBLE` project.
+ * @warning Reference implementation for the `MDSANIMA INCREDIBLE` example demo project.
  *
- * @param text The text message to print in the color on the terminal stdout.
- * @param color The foreground text message color is a number from 0 to 255.
+ * @param text The text message to stdout print in the color on the terminal.
+ * @param color The color of the text message. A number from 0 to 255.
  */
 void mprint(const char* text, int color);
+
+/**
+ * Advance color text message printing on the stdout.
+ *
+ * @note Wrapper for the ANSI escape sequence, where 0 is black and 255 is white.
+ *
+ * @warning Reference implementation for the `MDSANIMA INCREDIBLE` example demo project.
+ *
+ * @param text The text message to stdout print in the color on the terminal.
+ * @param foreground The foreground color of the text message. A number from 0 to 255.
+ * @param background The background color of the text message. A number from 0 to 255.
+ */
+void mprint(const char* text, int foreground, int background);

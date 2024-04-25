@@ -1,13 +1,17 @@
 // Copyright (c) 2024 MDSANIMA LAB. All rights reserved.
 // Licensed under the MIT license.
 
-// The main C++ example domo program for `MDSANIMA FANTASTIC` project.
+// The main C++ example domo program for the `MDSANIMA FANTASTIC` project.
 
 #include "lib.hh"
 
 auto main() -> int {
-    const char* message = "Hello World from the MDSANIMA FANTASTIC demo program!";
+    const char* message = "Hello world from the MDSANIMA FANTASTIC demo program";
     mprint(message);
-    const int color = 1;
-    mprint(message, color);
+
+    const int red = 196;
+    mprint(message, red);
+
+    const int black = 0;
+    mprint(message, black, red);
 }
