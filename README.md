@@ -4,6 +4,7 @@ Introduction to [CMake](https://cmake.org/) configuration for building and runni
 **C/C++** programs.
 
 > [!NOTE]
+>
 > To build the sample _demo_ programs that are in the _example_ and _project_ directory, we are
 > using `cmake` build system command on **WSL** or another virtual machine with a **GNU/Linux**
 > system, such as **Debian**, **Ubuntu**, **Fedora**, **CentOS**, and so on. The choice is yours.
@@ -38,6 +39,7 @@ make
 ```
 
 > [!CAUTION]
+>
 > For the build to succeed, you must copy the header file `mdsanima.h` into the `/usr/local/include`
 > directory. This is because the `mdsanima.h` header file is a part of the **MDSANIMA** library,
 > which is not a part of the **CMake** build system right now. To copy this file to the destination
@@ -47,7 +49,7 @@ make
 You can now run the demo programs by typing the following command inside the `build` directory:
 
 ```shell
-./mdsanima-amarok
+./mdsanima-amarooke
 ./mdsanima-blizzard
 ./mdsanima-conquest
 ./mdsanima-fantastic
@@ -65,7 +67,7 @@ the `build` directory. After running the first command `cmake -B build` to gener
 for the _example_ and _project_ programs, and then running the `make` command to build the
 executable files, you can run the _example_ programs that we showed above.
 
-The _mdsanima-amarok_, _mdsanima-blizzard_ and _mdsanima-conquest_ program is quite different. You
+The _mdsanima-amarooke_, _mdsanima-blizzard_ and _mdsanima-conquest_ program is quite different. You
 can install the project program by typing the following command:
 
 ```shell
@@ -73,12 +75,12 @@ cd build
 sudo make install
 ```
 
-That command will install the _mdsanima-amarok_, _mdsanima-blizzard_ and _mdsanima-conquest_ project
-demo programs in the `/usr/local/bin` directory, and you can run the program by typing the following
-command:
+That command will install the _mdsanima-amarooke_, _mdsanima-blizzard_ and _mdsanima-conquest_
+project demo programs in the `/usr/local/bin` directory, and you can run the program by typing the
+following command:
 
 ```shell
-mdsanima-amarok
+mdsanima-amarooke
 mdsanima-blizzard
 mdsanima-conquest
 ```
@@ -97,6 +99,7 @@ are located in the `src` directory, but you can also put all the files in one di
 depends on the project.
 
 > [!NOTE]
+>
 > To manualy build the demo programs, you can use the `gcc` or `g++` command to compile and link the
 > source code files.
 
@@ -112,19 +115,20 @@ g++ -o build/mdsanima-fantastic main.cc
 This method is only recommended if you want to manually build the program.
 
 > [!IMPORTANT]
+>
 > The sample projects are written in **C** and **C++** languages, and the source code files have
 > extensions `.c`, `.cc`, and `.cpp`. You can also use the `.cxx` file format, as we added in the
-> example project. Here is just an example. Remember to use the chosen format and be consistent
-> with it.
+> example project. Here is just an example. Remember to use the chosen format and be consistent with
+> it.
 
 All projects are the same; they only differ in the text displayed in the terminal and in other file
 extensions.
 
 ## Google Style Guide
 
-Also, check how _Google_ does it.
-Here is a [C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
-and [Objective-C Style Guide](https://google.github.io/styleguide/objcguide.html) provided by the
+Also, check how _Google_ does it. Here is a
+[C++ Style Guide](https://google.github.io/styleguide/cppguide.html) and
+[Objective-C Style Guide](https://google.github.io/styleguide/objcguide.html) provided by the
 [Google Style Guide](https://github.com/google/styleguide). The complete guide for naming
 conventions, variables, functions, and more by _Google_.
 
