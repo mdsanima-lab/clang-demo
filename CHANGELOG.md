@@ -1,8 +1,41 @@
 # Changelog
 
+<!-- markdownlint-disable -->
+
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org/) for commit guidelines.
 
-<!-- markdownlint-disable -->
+## [0.2.2](https://github.com/mdsanima-lab/cmake-demo/compare/v0.2.1...v0.2.2) (_2024-04-29_)
+
+### 🤿 Enhancements
+
+- add advanced color printing ([#45](https://github.com/mdsanima-lab/cmake-demo/issues/45))
+- add color text print function across projects ([#44](https://github.com/mdsanima-lab/cmake-demo/issues/44))
+- add markdownlint configuration ([#49](https://github.com/mdsanima-lab/cmake-demo/issues/49))
+
+### 💻 Refactors
+
+- enhance projects for clarity ([#53](https://github.com/mdsanima-lab/cmake-demo/issues/53))
+- print functions and enhance demo outputs ([#52](https://github.com/mdsanima-lab/cmake-demo/issues/52))
+- rename `amarok` demo to `amarooke` ([#54](https://github.com/mdsanima-lab/cmake-demo/issues/54))
+- use shared library in fantastic example ([#40](https://github.com/mdsanima-lab/cmake-demo/issues/40))
+- use shared library in incredible example ([#41](https://github.com/mdsanima-lab/cmake-demo/issues/41))
+- use shared library in stunning example ([#42](https://github.com/mdsanima-lab/cmake-demo/issues/42))
+
+### 📚 Documentation
+
+- add more information in docstring on examples ([#43](https://github.com/mdsanima-lab/cmake-demo/issues/43))
+
+### 🧢 Style
+
+- **clang-format:** enable trailing comment aligments ([#55](https://github.com/mdsanima-lab/cmake-demo/issues/55))
+- enhanced clarity coding style configs ([#51](https://github.com/mdsanima-lab/cmake-demo/issues/51))
+- refine documentation ([#46](https://github.com/mdsanima-lab/cmake-demo/issues/46))
+- update `.clang-format` for enhanced readability ([#50](https://github.com/mdsanima-lab/cmake-demo/issues/50))
+- update code formatting configs for consistency ([#47](https://github.com/mdsanima-lab/cmake-demo/issues/47))
+
+### 🎪 Chore
+
+- update `.gitignore` to exclude todo files ([#48](https://github.com/mdsanima-lab/cmake-demo/issues/48))
 
 ## [0.2.1](https://github.com/mdsanima-lab/cmake-demo/compare/v0.2.0...v0.2.1) (_2024-04-24_)
 
