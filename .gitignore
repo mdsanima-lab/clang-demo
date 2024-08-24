@@ -20,7 +20,7 @@ dist/
 downloads/
 eggs/
 .eggs/
-# lib/
+#lib/
 lib64/
 parts/
 sdist/
@@ -451,8 +451,8 @@ temp
 .tmp
 .temp
 
-# Temporary files case sensitive todo markdown
+# Todo Markdown case sensitive
 *[Tt][Oo][Dd][Oo].md
 
-# Extension sqltools connections secrets
+# Extension SQLTools connection secrets
 .vscode*
