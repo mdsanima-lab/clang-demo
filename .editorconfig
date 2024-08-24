@@ -1,8 +1,10 @@
-# Maintain consistent coding style across the entire project.
+# Maintain a consistent coding style across the entire project by maintaining a consistent style.
 
 # This is a configuration file for EditorConfig.  The settings for JavaScript, Python and C/C++
 # files are mirrored by languages in .prettierrc, .eslintrc, .flake8, .pylintrc, pyproject.toml and
 # .clang-format files that is shared accros all my codebase projects.  Keep them in sync.
+
+# The rules are still a work in progress and subject to change.  I still need to think about this.
 
 root = true
 
@@ -15,15 +17,11 @@ insert_final_newline = true
 trim_trailing_whitespace = true
 quote_type = double
 
-[*.{commitlintrc,eslint*,prettier*,html,css,js,jsx,json,md,mjs,ts,tsx,versionrc,todo}]
+[*.{bash,eslint*,json*,md*,prettier*,sh,svg,todo,version*,vim,xml,yaml,yml,zsh*}]
 indent_size = 2
 max_line_length = 100
 
-[*.{yml,yaml}]
-indent_size = 2
-max_line_length = off
-
-[*.{ps1,psm1,psd1}]
+[*.{css,html,js,jsx,mjs,ps1,psd1,psm1,scss,ts,tsx}]
 indent_size = 4
 max_line_length = 100
 
@@ -31,15 +29,6 @@ max_line_length = 100
 profile = black
 indent_size = 4
 max_line_length = 100
-
-[*.{sh,bash,zsh*,vim}]
-indent_size = 4
-max_line_length = 100
-
-[{*.svg,.env*}]
-insert_final_newline = false
-indent_size = 2
-max_line_length = off
 
 [{.clang-format,.clang-tidy}]
 indent_size = 2
