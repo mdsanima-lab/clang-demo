@@ -8,10 +8,10 @@
 int main(void)
 {
     const char *message = " MDSANIMA BLIZZARD ";
-    const int   fgColor = 48;  // Text color
     const int   bgColor = 36;  // Background color
+    const int   fgColor = 48;  // Text color
 
-    cprint(message, fgColor, bgColor);
+    cprint(message, bgColor, fgColor);
 
     return 0;
 }

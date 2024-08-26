@@ -6,7 +6,7 @@
 #include <mdsanima.h>
 #include <stdio.h>
 
-void cprint(const char *text, int foreground, int background)
+void cprint(const char *text, int background, int foreground)
 {
-    printf("\e[38;5;%dm\e[48;5;%dm\e[1m%s\e[0m\n", foreground, background, text);
+    printf("\e[48;5;%dm\e[38;5;%dm\e[1m%s\e[0m\n", background, foreground, text);
 }
