@@ -8,10 +8,10 @@
 int main(void)
 {
     const char *message = " MDSANIMA CONQUEST ";
-    const int sky       = 45;  // Text color
-    const int blue      = 27;  // Background color
+    const int   fgColor = 74;  // Text color
+    const int   bgColor = 62;  // Background color
 
-    cprint(message, sky, blue);
+    cprint(message, fgColor, bgColor);
 
     return 0;
 }
