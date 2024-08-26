@@ -21,7 +21,7 @@ UseTab: Never
 #   const char *foo  = "bar";
 #   const int bar    = 1;
 #   const double baz = 2.0;
-AlignConsecutiveAssignments: None
+AlignConsecutiveAssignments: Consecutive
 
 # Align consecutive declarations
 #   const char  *foo = "bar";
