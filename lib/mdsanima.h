@@ -11,7 +11,7 @@
  *
  * @note Wrapper for the ANSI escape sequence, where 0 is black and 255 is white.
  *
- * @param text The text message to stdout print in the color on the terminal.
+ * @param text The bold text message to stdout print in the color on the terminal.
  * @param foreground The foreground color of the text message.  A number from 0 to 255.
  * @param background The background color of the text message.  A number from 0 to 255.
  */
