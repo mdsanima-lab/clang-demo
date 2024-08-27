@@ -17,24 +17,15 @@ ColumnLimit: 100
 IndentWidth: 4
 UseTab: Never
 
-# Align consecutive assignments
-#   const char *foo  = "bar";
-#   const int bar    = 1;
-#   const double baz = 2.0;
+# Align consecutives
 AlignConsecutiveAssignments: Consecutive
-
-# Align consecutive declarations
-#   const char  *foo = "bar";
-#   const int    bar = 1;
-#   const double baz = 2.0;
 AlignConsecutiveDeclarations: Consecutive
+AlignConsecutiveMacros: Consecutive
 
 # Align escaped newlines for the left
 AlignEscapedNewlinesLeft: true
 
 # Align trailing comments
-#   const int foo;      // Comment foo
-#   const int bar = 2;  // Comment bar
 AlignTrailingComments: true
 
 # Short function style
