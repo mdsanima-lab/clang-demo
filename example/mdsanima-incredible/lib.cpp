@@ -14,10 +14,11 @@ void mprint(const char *text)
 
 void mprint(const char *text, int color)
 {
-    std::cout << "\e[38;5;" << color << "m" << text << "\e[0m\n";
+    std::cout << ESC_FOREGROUND << color << "m" << ESC_TEXT_BOLD << text << ESC_RESET << "\n";
 }
 
-void mprint(const char *text, int foreground, int background)
+void mprint(const char *text, int background, int foreground)
 {
-    std::cout << "\e[38;5;" << foreground << "m\e[48;5;" << background << "m" << text << "\e[0m\n";
+    std::cout << ESC_BACKGROUND << background << "m" << ESC_FOREGROUND << foreground << "m" << text
+              << ESC_RESET << "\n";
 }

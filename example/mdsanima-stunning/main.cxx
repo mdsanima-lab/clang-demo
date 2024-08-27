@@ -7,11 +7,11 @@
 
 auto main() -> int
 {
-    const char *message = "Hello world from the MDSANIMA STUNNING demo program";
-    const int blue      = 27;
-    const int black     = 0;
+    const char *message = " Hello world from the demo program   MDSANIMA STUNNING ";
+    const int   blue    = 27;
+    const int   black   = 0;
 
     mprint(message);
     mprint(message, blue);
-    mprint(message, black, blue);
+    mprint(message, blue, black);
 }
